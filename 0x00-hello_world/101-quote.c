@@ -1,4 +1,3 @@
- (10 sloc)  181 Bytes
 #include <unistd.h>
 /**
  * main- Entry.
