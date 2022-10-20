@@ -1,40 +1,24 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- *  * main - Prints Holberton as a message.
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - causes an infinite loop
+ * Return: 0
+ */
+
 int main(void)
 {
-		int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-			int count, sz;
+        int i;
 
-				sz = sizeof(str) / sizeof(int);
-					for (count = 0; count < sz; count++)
-							{
-										_putchar(str[count]);
-											}
-						_putchar('\n');
-							return (0);
+        printf("Infinite loop incoming :(\n");
+
+        i = 0;
+        /*
+        *while (i < 10)
+        *{
+        *       putchar(i);
+        *}
+        */
+printf("Infinite loop avoided! \\o/\n");
+
+return (0);
 }
-
-Task 1
-
-#include "main.h"
-/**
- * print_alphabet - prints all alphabets in lowercase.
- * Return: On success 1.
- */
-void print_alphabet(void)
-{
-		char i;
-
-			for (i = 'a'; i <= 'z'; i++)
-					{
-							_putchar(i);
-								}
-				_putchar('\n');
-
-}
-i
